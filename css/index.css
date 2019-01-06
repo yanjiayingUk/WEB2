@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+/*header开始*/
+.head1{
+	height: 130px;
+	width: 100%;
+	z-index: 2;
+	background-color: #ffffff;
+}
+.head2{
+	height: 130px;
+	width: 1180px;
+	margin: 0 auto;
+	font-size: 12px;
+	position: relative;
+	color: gray;
+}
+.head3{
+	width: 730px;
+	height: 25px;
+	color: gray;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	font-size: 12px;
+}
+.top_QQ{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -31px no-repeat;
+	float: left;
+	margin-right: 18px;
+}
+.top_weixin{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -53px;
+	float: left;
+	margin-right: 18px;
+}
+.top_weibo{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -75px;
+	float: left;
+	margin-right: 17px;
+}
+.lo{
+	margin-right:16px; 
+}
+.message2{
+	margin-left: 13px;
+	margin-right: 17px;
+}
+.message{
+	position: absolute;
+	top: 0px;
+	right: 518px;
+	width: 22px;
+	height: 16px;
+	background: url(../img/common_min.png) 0px -113px;
+}
+.myorder{
+	background: url(../img/dingdan.jpg)no-repeat 0 2px;
+	padding-left: 16px;
+	padding-right: 15px;
+}
+.phone{
+	background: url(../img/phone.png) no-repeat 0 2px;
+	padding-left: 16px;
+	margin-right: 15px;
+}
+.cart{
+	background: url(../img/gouwuche.jpg) no-repeat 0 -1px;
+	padding-left: 24px;
+}
+.cart2{
+	color: #fe6c00;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.logo{
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	height: 61px;
+	width: 141px;
+}
+.form{
+	float: left;
+	margin-left: 249px;
+	margin-top: 42px;
+}
+.form>* {
+    outline: 0;/*除去表单控件的默认轮廓*/
+}
+.form input {
+    float: left;
+    font-size: 13px;
+    height: 34px;
+    width: 475px;
+    text-indent: 17px;
+    border: 3px solid #fe6c00;
+}
+.form button {
+    height: 40px;
+    width: 83px;
+    border: 0;
+    background: #fe6c00;
+    color: white;
+    font-size: 16px;
+}
+.problem{
+	width: 256px;
+	height: 38px;
+	position: absolute;
+	top: 58px;
+	right: 0px;
+}
+.problem li{
+	width: 83px;
+	height: 36px;
+	border: 1px solid gray;
+	float: left;
+	border-radius: 2px;
+}
+.problem li:last-child{
+	background-color: #ff4d04;
+	color: white;
+	font-size: 13px;
+}
+.picture{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 32px;
+}
+.common{
+	margin-top: 9px;
+	float: left;
+}
+.picture2{
+	margin-top: 12px;
+	margin-left: 5px;
+	float: left;
+}
+.list{
+	width: 570px;
+	height: 17px;
+	position: absolute;
+	bottom: 0px;
+	left: 248px;
+	margin: 0 auto;
+}
+.list li{
+	color: black;
+	float: left;
+	font-size: 12px;
+	padding-left: 8px;
+	margin-left: 8px;
+}
+.list0{
+	background: url(../img/shuxian.jpg) no-repeat left center;
+}
+.begin1{
+	height: 40px;
+	width: 100%;
+}
+.begin2{
+	height: 130px;
+	width: 1180px;
+	margin: 0 auto;
+	font-size: 16px;
+	position: relative;
+}
+.begin2 li{
+	margin-right: 55px;
+	float: left;
+	margin-top: 13px;
+}
+.begin2 div{
+	background-color: #ff4d04;
+	width: 170px;
+	height: 40px;
+	color: white;
+	float: left;
+	margin-right: 45px;
+}
+.begin2 div p{
+	margin-top: 10px;
+	margin-left: 37px;
+}
+.picture3{
+	position: absolute;
+	top: 0px;
+	right: 250px;
+}
+.begin3{
+	height: 1px;
+	background-color: #fe6c00;
+	width: 100%;
+}
+.main{
+	height: 548px;
+	width: 100%;
+	background-color: #f8f7f6;
+}
+.main2{
+	height: 548px;
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+}
+.main3{
+	width: 169px;
+	height: 548px;
+	float: left;
+}
+.first{
+	height: 422px;
+	width: 169px;
+}
+.now{
+	width: 25px;
+	height: 422px;
+	float: left;
+	background-color: #4c4c4a;
+}
+.now li{
+	color: #ff4d4b;
+	font-size: 16px;
+	margin-top: 8px;
+	margin-left: 4px;
+}
+.now li:first-child{
+	margin-top: 16px;
+}
+.now2{
+	width: 144px;
+	height: 422px;
+	float: left;
+	font-size: 12px;
+}
+.now3 li{
+	float: left;
+	margin-top: 11px;
+	margin-left: 8px;
+}
+.now3 li:first-child{
+	margin-left: 13px;
+}
+.now4 li{
+	float: left;
+	margin-top: 16px;
+	margin-left: 8px;
+}
+.now4 li:first-child{
+	margin-left: 13px;
+}
+.shuxian2{
+	height: 1px;
+	width: 169px;
+	background-color: #fe6c00;
+}
+.second{
+	height: 125px;
+	width: 169px;
+	color: #855d38;
+	font-size: 13px;
+}
+.second li{
+	padding-left: 35px;
+	margin-top: 15px;
+	height: 22px;
+}
+.main4{
+	width: 800px;
+	height: 548px;
+	float: left;
+}
+.box{
+	width: 800px;
+	height: 360px;
+	border: 1px solid red
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 6400px;
+	position: absolute;
+	left: -800px;
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
+.shuxian3{
+	width: 800px;
+	height: 4px;
+	background-color: #fe6c00;
+}
+.forth{
+	height: 188px;
+	width: 800px;
+}
+.forth div{
+	float: left;
+}
+.fivth{
+	height: 183px;
+	width: 200px;
+}
+.shuxian{
+	width: 1px;
+	height: 548px;
+	float: left;
+	background-color: #fe6c00;
+}
+.main5{
+	width: 210px;
+	height: 548px;
+	float: left;
+}
+.one{
+	height: 43px;
+	width: 210px;
+	border-bottom: 1px solid gray;
+}
+.one div{
+	float: left;
+	margin-top: 14px;
+	margin-left: 20px;
+}
+.one p{
+	color: #fe6c00;
+	float: left;
+	margin: 14px 50px 8px 11px;
+}
+.bo7{
+	width:209px;
+	height: 320px;
+	float:left;
+	border-bottom:1px solid #ebeae7;
+	color:#ff4d04; 
+	font-weight: bold;
+	overflow: hidden;  
+}
+.bo7 li{
+	width: 209px;
+	height:18px;
+	font-size: 11px;
+	float:left;
+	padding-left: 16px;
+	padding-top: 10px;
+}
+.three{
+	height: 183px;
+	width: 210px;
+	border-top: 1px solid gray;
+	font-size: 11px;
+	padding-top: 315px;
+}
+.bill{
+	width: 175px;
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 16px;
+}
+.three img{
+	float: left;
+}
+.three p{
+	margin-left: 11px;
+	float: left;
+}
+.phonenum{
+	height: 20px;
+	width: 120px;
+	font-size: 12px;
+	color: gray;
+	margin-left: 16px;
+	margin-top: 10px;
+}
+.pricec{
+	height: 18px;
+	width: 105px;
+	margin-left: 16px;
+	margin-top: 6px;
+}
+.topup{
+	width: 177px;
+	height: 25px;
+	background-color: #ff4d04;
+	color: white;
+	border: 0px;
+	margin-top: 6px;
+	margin-left: 16px;
+	border-radius: 4px;
+}
+.last{
+	height: 181px;
+	width: 100%;
+	background-color: #f8f7f6;
+}
+.last2{
+	height: 181px;
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.picture4{
+	margin-right: 82px;
+	float: left;
+}
+.picture5{
+	padding-top: 26px;
+}
+.last3 li{
+	width: 70px;
+	height: 120px;
+	margin-right: 64px;
+	margin-top: 30px;
+	float: left;
+}
+.last3 li div{
+	font-size: 16px;
+}
+.last3 li p{
+	font-size: 12px;
+	color: gray;
+	margin-top: 12px;
+}
+.border{
+	height: 1px;
+	background-color: #f8f7f6;
+	width: 100%;
+}
+.border1{
+	height: 1px;
+	background-color: #ebeae8;
+	width: 1031px;
+	margin: 0 auto;
+}
+.final{
+	height: 163px;
+	width: 100%;
+	background-color: #f8f7f6;
+}
+.final2{
+	height: 163px;
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.list2{
+	width: 655px;
+	height: 17px;
+	position: absolute;
+	top: 17px;
+	left: 270px;
+	margin: 0 auto;
+}
+.list2 li{
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+.list0{
+	background: url(../img/shuxian.jpg) no-repeat left center;
+}
+.final2 p{
+	font-size: 12px;
+	color: gray;
+	padding-top: 8px;
+	text-align: center;
+}
+.final3{
+	width: 785px;
+	height: 55px;
+	padding-left: 205px;
+}
+.final3 li{
+	float: left;
+	margin-right: 4px;
+	vertical-align:bottom;
+}
+.zuiyou{
+	width: 45px;
+	height: 508px;
+	position: fixed;
+	right: 0;
+	top: 107px;
+	position: relative;
+}
+.zuiyou0{
+	right: -20px;
+	position: absolute;
+}
+.zuiyou1{
+	width: 45px;
+	height: 150px;
+	background-color: #ff9260;
+	margin-top: 1px;
+	float: left;
+}

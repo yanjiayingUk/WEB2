@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+/*header开始*/
+.head1{
+	height: 130px;
+	width: 100%;
+	z-index: 2;
+	background-color: #ffffff;
+}
+.head2{
+	height: 130px;
+	width: 1180px;
+	margin: 0 auto;
+	font-size: 12px;
+	position: relative;
+	color: gray;
+}
+.head3{
+	width: 730px;
+	height: 25px;
+	color: gray;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	font-size: 12px;
+}
+.top_QQ{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -31px no-repeat;
+	float: left;
+	margin-right: 18px;
+}
+.top_weixin{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -53px;
+	float: left;
+	margin-right: 18px;
+}
+.top_weibo{
+	width: 19px;
+	height: 19px;
+	background: url(../img/common_min.png) 0 -75px;
+	float: left;
+	margin-right: 17px;
+}
+.lo{
+	margin-right:16px; 
+}
+.message2{
+	margin-left: 13px;
+	margin-right: 17px;
+}
+.message{
+	position: absolute;
+	top: 0px;
+	right: 518px;
+	width: 22px;
+	height: 16px;
+	background: url(../img/common_min.png) 0px -113px;
+}
+.myorder{
+	background: url(../img/dingdan.jpg)no-repeat 0 2px;
+	padding-left: 16px;
+	padding-right: 15px;
+}
+.phone{
+	background: url(../img/phone.png) no-repeat 0 2px;
+	padding-left: 16px;
+	margin-right: 15px;
+}
+.cart{
+	background: url(../img/gouwuche.jpg) no-repeat 0 -1px;
+	padding-left: 24px;
+}
+.cart2{
+	color: #fe6c00;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.logo{
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	height: 61px;
+	width: 141px;
+}
+.form{
+	float: left;
+	margin-left: 249px;
+	margin-top: 42px;
+}
+.form>* {
+    outline: 0;/*除去表单控件的默认轮廓*/
+}
+.form input {
+    float: left;
+    font-size: 13px;
+    height: 34px;
+    width: 475px;
+    text-indent: 17px;
+    border: 3px solid #fe6c00;
+}
+.form button {
+    height: 40px;
+    width: 83px;
+    border: 0;
+    background: #fe6c00;
+    color: white;
+    font-size: 16px;
+}
+.problem{
+	width: 256px;
+	height: 38px;
+	position: absolute;
+	top: 58px;
+	right: 0px;
+}
+.problem li{
+	width: 83px;
+	height: 36px;
+	border: 1px solid gray;
+	float: left;
+	border-radius: 2px;
+}
+.problem li:last-child{
+	background-color: #ff4d04;
+	color: white;
+	font-size: 13px;
+}
+.picture{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 32px;
+}
+.common{
+	margin-top: 9px;
+	float: left;
+}
+.picture2{
+	margin-top: 12px;
+	margin-left: 5px;
+	float: left;
+}
+.list{
+	width: 570px;
+	height: 17px;
+	position: absolute;
+	bottom: 0px;
+	left: 248px;
+	margin: 0 auto;
+}
+.list li{
+	color: black;
+	float: left;
+	font-size: 12px;
+	padding-left: 8px;
+	margin-left: 8px;
+}
+.list0{
+	background: url(../img/shuxian.jpg) no-repeat left center;
+}
+.black{
+	height: 40px;
+	width: 100%;
+	color: white;
+	font-size: 13px;
+	background-color: black;
+}
+.black2{
+	height: 40px;
+	width: 1180px;
+	margin: 0 auto;
+}
+.index li{
+	margin-right: 70px;
+	padding-top: 12px;
+	float: left;
+}
+.index li:first-child{
+	padding-left: 38px;
+	height: 28px;
+	width: 60px;
+	background-color: #fe0d4a;
+}
+.main{
+	height: 777px;
+	width: 100%;
+	background-color: #f6f5f4;
+}
+.main2{
+	height: 777px;
+	width: 1180px;
+	margin: 0 auto;
+}
+.main3{
+	height: 38px;
+	width: 1180px;
+}
+.main3 p{
+	font-size: 13px;
+	padding-top: 10px;
+}
+.main4{
+	width: 1180px;
+	height: 631px;
+}
+.one{
+	width: 994px;
+	height: 630px;
+	float: left;
+	background-color: white;
+}
+.zoom{
+	float: left;
+	width: 432px;
+	height: 641px;
+	position: relative;
+}
+.lunbo{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+}
+#slider1{
+	float: left ;
+	width: 57px;
+	height: 57px;
+}
+#slider2{
+	float: left;
+	width: 57px;
+	height: 57px;
+}
+#img1{
+	width: 411px;
+	height: 411px;
+	border: 1px solid gray;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#slider{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100px;
+	height:100px;
+	background:#CCC;
+	opacity:0.4;
+	cursor: move;
+	display:none; 
+	filter:alpha(opacity=40);
+}
+#img2{
+	position: absolute;
+	left: 411px;
+	top: 0;
+	display:none;
+	width:411px;
+	height:411px;
+	overflow:hidden;
+	border: 1px solid gray;
+}
+#Bimg{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.b{
+	width: 500px;
+	height: 430px;
+	float: left;
+	margin-top: 20px;
+}
+.c{
+	font-size: 14px;
+}
+.d{
+	margin-top: 5px;
+	color: gray;
+	font-size: 11px;
+}
+.e{
+	height: 22px;
+	width: 170px;
+	margin-top: 28px;
+	margin-left: 18px;
+}
+.price{
+	font-size: 11px;
+	float: left;
+	margin-top: 4px;
+}
+.price2{
+	color: #ff0000;
+	font-size: 14px;
+	margin-left: 55px;
+	float: left;
+}
+.price3{
+	font-size: 11px;
+	text-decoration: line-through;
+	float: left;
+	margin-left: 35px;
+	margin-top: 4px;
+}
+.f{
+	width: 230px;
+	height: 35px;
+	margin-left: 22px;
+	font-size: 11px;
+}
+.f p{
+	float: left;
+}
+.f input{
+	background-color: white;
+	width: 60px;
+	height: 22px;
+	float: left;
+	border: 0px;
+}
+.g{
+	width: 290px;
+	height: 30px;
+	margin-left: 22px;
+	margin-top: 15px;
+	text-align: center;
+}
+.g p{
+	float: left;
+	font-size: 11px;
+	margin-top: 5px;
+}
+.form2{
+	float: left;
+	margin-left: 65px;
+	margin-right: 25px;
+}
+.form2>* {
+    outline: 0;/*除去表单控件的默认轮廓*/
+}
+.form2 div {
+    float: left;
+    font-size: 15px;
+    height: 25px;
+    width: 50px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.form2 input {
+	float: left;
+    height: 27px;
+    width: 24px;
+    border: 1px solid gray;
+    font-size: 15px;
+    background-color: white;
+}
+.h{
+	height: 30px;
+	width: 200px;
+	margin-left: 110px;
+}
+#chose{
+	font-size: 11px;
+	float: left;
+	margin-top: 3px;
+	margin-right: 20px;
+}
+#chose2{
+	color: #ff9003;
+	font-size: 16px;
+	float: left;
+}
+.form3{
+	height: 40px;
+	margin-left: 12px;
+	margin-top: 23px;
+}
+.form3>* {
+    outline: 0;/*除去表单控件的默认轮廓*/
+}
+.form3 input{
+	border-radius: 3px;
+	text-align: center;
+}
+.j{
+	height: 40px;
+	width: 150px;
+	color: #ff0754;
+	border: 1px solid #ff0754;
+	background-color: white;
+}
+#k{
+	height: 40px;
+	width: 150px;
+	color: white;
+	border: 0px;
+	background-color: #ff0754;
+}
+.two{
+	height: 631px;
+	float: left;
+	margin-left: 6px;
+}
+.main5{
+	width: 1180px;
+	height: 108px;
+}
+.last{
+	height: 181px;
+	width: 100%;
+}
+.last2{
+	height: 181px;
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.picture4{
+	margin-right: 82px;
+	float: left;
+}
+.picture5{
+	padding-top: 26px;
+}
+.last3 li{
+	width: 70px;
+	height: 120px;
+	margin-right: 64px;
+	margin-top: 30px;
+	float: left;
+}
+.last3 li div{
+	font-size: 16px;
+}
+.last3 li p{
+	font-size: 12px;
+	color: gray;
+	margin-top: 12px;
+}
+.border{
+	height: 1px;
+	background-color: #f8f7f6;
+	width: 100%;
+}
+.border1{
+	height: 1px;
+	background-color: #ebeae8;
+	width: 1031px;
+	margin: 0 auto;
+}
+.final{
+	height: 163px;
+	width: 100%;
+}
+.final2{
+	height: 163px;
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.list2{
+	width: 655px;
+	height: 17px;
+	position: absolute;
+	top: 17px;
+	left: 270px;
+	margin: 0 auto;
+}
+.list2 li{
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+.list0{
+	background: url(../img/shuxian.jpg) no-repeat left center;
+}
+.final2 p{
+	font-size: 12px;
+	color: gray;
+	padding-top: 8px;
+	text-align: center;
+}
+.final3{
+	width: 785px;
+	height: 55px;
+	padding-left: 205px;
+}
+.final3 li{
+	float: left;
+	margin-right: 4px;
+	vertical-align:bottom;
+}
+.hui{
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	background-color:#dedcd8;
+	position: fixed;
+	top: 0px;
+	opacity: 0.9;
+	display: none;
+}
+.hui1{
+	width: 400px;
+	height: 220px;
+	margin-left:550px ;
+	margin-top: 215px;
+	border: 2px solid #aca9d3;
+	background-color: white;
+}
+#cuo{
+	width:20px;
+	height:20px;
+	float:right;
+	text-align: center;
+	background-color: white;
+	border: 0px;
+}
+#end1{
+	width:152px;
+	height:40px;
+	margin-left: 32px;
+	margin-top:5px;
+	border:1px solid #ff0754;
+	color:#ff0754;
+	border-radius: 10px;
+	background-color: white;
+}
+#end2{
+	 width:152px;
+	 height:40px;
+	 margin-left:29px;
+	 margin-top:5px;
+	 border:1px solid #ff0754;
+	 color: white;
+	 background-color: #ff0754;
+	 border-radius: 10px;
+}
